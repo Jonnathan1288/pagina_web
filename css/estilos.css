@@ -1,0 +1,75 @@
+.cabecera{
+    background-color: gray;
+    padding: .5rem ;
+}
+
+.logo img {
+    width: 210px;
+    height: 90px;
+    display: block;
+    margin: auto;
+}
+
+/* .fondo{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
+
+footer{
+    background-color: gray;
+    color: white;
+    padding: 20px 20px;
+}
+
+.contenedor a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.tipos img{
+    width: 25px;
+}
+
+#face a:hover{
+    color: blue;
+}
+
+#wpp a:hover{
+    color: green;
+}
+
+#ins a:hover{
+    color: palevioletred;
+}
+
+
+.conten{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/fondo.jpg');
+    /* background-image: url("../img/fondo.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: justify;
+    padding: .5rem ;
+}
+
+.fon-img img{
+    display: block;
+    margin: auto;
+}
